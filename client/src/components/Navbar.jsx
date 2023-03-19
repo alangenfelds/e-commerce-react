@@ -40,7 +40,7 @@ const Navbar = () => {
       >
         <Box
           onClick={() => navigate("/")}
-          sx={{ "&:hover": { cursor: "pointer" } }}
+          sx={{ "&:hover": { cursor: "pointer" }, userSelect: "none" }}
           color={shades.secondary[500]}
         >
           E-COMMERCE
